@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Calendar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="calendarview_options">
+        <item>By Month</item>
+        <item>By Day</item>
+        <item>By Week</item>
+    </string-array>
+
+    <string name="by_month">By Month</string>
+    <string name="title_activity_sem_menu">MainActivity</string>
+    <string name="title_activity_add_sem">AddSemActivity</string>
+
+</resources>

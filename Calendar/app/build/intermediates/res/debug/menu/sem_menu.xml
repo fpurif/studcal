@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.paulinefran.calendar.SemMenuActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    
+    <item 
+        android:id = "@+id/addSem"
+        android:title = "Add Semester"
+        android:icon = "@drawable/addsign"
+        app:showAsAction = "always" />
+
+</menu>
+<!-- From: file:/C:/Users/fjpp/AndroidstudioProjects/Calendar/app/src/main/res/menu/sem_menu.xml -->

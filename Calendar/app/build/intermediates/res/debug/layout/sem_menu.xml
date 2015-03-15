@@ -1,0 +1,11 @@
+<ListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/listView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    
+    
+</ListView>
+
+
+<!-- From: file:/C:/Users/fjpp/AndroidstudioProjects/Calendar/app/src/main/res/layout/sem_menu.xml -->
