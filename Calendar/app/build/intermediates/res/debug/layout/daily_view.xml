@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-    
+
 
 </LinearLayout>
 <!-- From: file:/C:/Users/fjpp/AndroidstudioProjects/Calendar/app/src/main/res/layout/daily_view.xml -->

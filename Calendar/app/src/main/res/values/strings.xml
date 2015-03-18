@@ -3,7 +3,7 @@
 
     <string name="app_name">Calendar</string>
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Add New Event</string>
 
     <string-array name="calendarview_options">
         <item>By Month</item>
@@ -13,6 +13,6 @@
 
     <string name="by_month">By Month</string>
     <string name="title_activity_sem_menu">MainActivity</string>
-    <string name="title_activity_add_sem">AddSemActivity</string>
+    <string name="title_activity_add_sem">New Semester</string>
 
 </resources>

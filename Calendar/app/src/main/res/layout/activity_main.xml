@@ -20,7 +20,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:entries="@array/calendarview_options"
-            android:prompt="@string/by_month" />
+            android:prompt="@string/by_month"
+            android:focusable="false" />
        
 
     </LinearLayout>
@@ -29,6 +30,9 @@
         android:id="@+id/calendarmonth"
         android:layout_margin = "10dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:showWeekNumber="false"
+        android:longClickable="true"
+        android:clickable="true" />
 
 </LinearLayout>
