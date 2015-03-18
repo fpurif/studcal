@@ -1,2 +1,2 @@
 # studcal
-Student Calender for Android Studio development
+Student Calendar for Android Studio development
