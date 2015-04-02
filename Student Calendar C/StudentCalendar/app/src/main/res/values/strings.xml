@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Student Calendar</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_list_semesters">ListSemestersActivity</string>
+    <string name="title_activity_add_semester">AddSemesterActivity</string>
+    <string name="title_activity_list_courses">ListCoursesActivity</string>
+    <string name="title_activity_add_course">AddCourseActivity</string>
+
+    <string name="course_name">Course name</string>
+    <string name="instructor">Instructor</string>
+    <string name="location">Location</string>
+    <string name="add">Add</string>
+    <string name="information">Information</string>
+   
+    <string name="semester_name">Semester name</string>
+    <string name="add_new_semester">Add New Semester</string>
+    <string name="all_semesters">All Semesters</string>
+    <string name="no_semester_in_the_database_create_new_one_by_clicking_the_add_button_at_the_top_right">No semester in the database. create new one by clicking the add button at the top right</string>
+    <string name="empty_fields_message">One or more fields are empty</string>
+    <string name="salary">Salary</string>
+    <string name="all_courses">All Courses</string>
+    <string name="no_course_working_for_this_semester_add_a_new_one_by_clicking_the_add_button_on_the_top_right">No course working for this semester. Add a new one by clicking the add button on the top right</string>
+    <string name="add_new_course">Add New Course</string>
+    <string name="select_a_semester">Select a Semester</string>
+    <string name="delete">Delete</string>
+    <string name="semester_deleted_successfully">Semester deleted successfully</string>
+    <string name="course_deleted_successfully">Course deleted successfully</string>
+    <string name="semester_created_successfully">Semester added successfully</string>
+    <string name="course_created_successfully">Course added successfully</string>
+</resources>
