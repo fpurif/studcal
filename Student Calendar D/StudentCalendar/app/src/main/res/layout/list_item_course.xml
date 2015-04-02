@@ -1,0 +1,67 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    <TextView
+        android:id="@+id/txt_course_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/course_name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_instructor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_course_name"
+        android:layout_marginTop="4dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="@string/instructor"
+        android:textAppearance="?android:attr/textAppearance"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/txt_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_instructor"
+        android:layout_marginTop="4dp"
+        android:autoLink="web"
+        android:linksClickable="false"
+        android:text="@string/location"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/txt_information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_location"
+        android:layout_marginTop="4dp"
+        android:autoLink="phone"
+        android:linksClickable="false"
+        android:text="@string/information"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/txt_semester_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_information"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/semester_name"
+        android:textColor="@android:color/darker_gray" />
+
+    </RelativeLayout>
+    </ScrollView>

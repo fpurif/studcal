@@ -1,0 +1,82 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <EditText
+            android:id="@+id/txt_course_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:hint="@string/course_name"
+            android:inputType="text"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/txt_instructor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/txt_course_name"
+            android:hint="@string/instructor"
+            android:inputType="text"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/txt_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_instructor"
+            android:layout_marginTop="8dp"
+            android:hint="@string/location"
+            android:inputType="text"
+            android:lines="2"
+            android:maxLines="2"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/txt_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_location"
+            android:layout_marginTop="8dp"
+            android:hint="@string/information"
+            android:inputType="textEmailAddress"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="@android:color/black" />
+
+        <Spinner
+            android:id="@+id/spinner_semesters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_information"
+            android:layout_marginTop="8dp"
+            android:prompt="@string/select_a_semester"
+            android:animateLayoutChanges="true"
+            android:spinnerMode="dropdown" />
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner_semesters"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:paddingBottom="2dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="2dp"
+            android:text="@string/add"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+
+</ScrollView>
