@@ -1,14 +1,15 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="${relativePackage}.${activityClass}" >
+    tools:context="${relativePackage}.${activityClass}"
+    android:orientation="vertical">
 
 
 
     <TextView
         android:id="@+id/txt_header"
-        android:layout_width="match_parent"
+        android:layout_width="404dp"
         android:layout_height="48dp"
         android:layout_centerHorizontal="true"
         android:gravity="center"
@@ -27,11 +28,12 @@
         android:layout_margin="8dp"
         android:background="@android:color/transparent"
         android:contentDescription="@null"
-        android:src="@android:drawable/ic_menu_add" />
+        android:src="@android:drawable/ic_menu_add"
+        android:layout_gravity="right" />
 
     <CalendarView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:id="@+id/calendarView"
         android:layout_row="1"
         android:layout_column="0"
@@ -39,4 +41,4 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-</RelativeLayout>
+</LinearLayout>
