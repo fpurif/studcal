@@ -13,7 +13,10 @@ public class Semester implements Serializable {
     public Semester() {}
 
     public Semester(String name) {
-        this.mName = name;
+        if (name == null)
+            this.mName = "";
+        else
+            this.mName = name;
     }
 
     public long getId(){
@@ -29,6 +32,8 @@ public class Semester implements Serializable {
     }
 
     public void setName(String mSemName){
+        if(mSemName == null)
+            return;
         this.mName = mSemName;
     }
 }

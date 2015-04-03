@@ -33,6 +33,10 @@ public class Course implements Serializable {
     }
 
     public void setId(long mId) {
+        if(mId < 0) {
+            this.mId = 0;
+            return;
+        }
         this.mId = mId;
     }
 
@@ -41,6 +45,11 @@ public class Course implements Serializable {
     }
 
     public void setCName(String mCName) {
+        if(mCName == null)
+        {
+            this.mCName = "";
+            return;
+        }
         this.mCName = mCName;
     }
 
@@ -49,6 +58,10 @@ public class Course implements Serializable {
     }
 
     public void setLocation(String mLocation) {
+        if(mLocation == null) {
+            this.mLocation = "none";
+            return;
+        }
         this.mLocation = mLocation;
     }
 
@@ -57,7 +70,12 @@ public class Course implements Serializable {
     }
 
     public void setColor(String mColor) {
-        this.mColor = mColor;
+
+        if(mColor == null)
+        {
+            this.mColor = "white";
+            return;
+        }this.mColor = mColor;
     }
 
     public String getInstructor() {
@@ -65,6 +83,10 @@ public class Course implements Serializable {
     }
 
     public void setInstructor(String mInstructor) {
+        if(mInstructor == null) {
+            this.mInstructor = "none";
+            return;
+        }
         this.mInstructor = mInstructor;
     }
 
@@ -73,6 +95,10 @@ public class Course implements Serializable {
     }
 
     public void setInfo(String mInfo) {
+        if(mInfo == null)
+        {
+            this.mInfo = "none";
+            return;}
         this.mInfo = mInfo;
     }
 
@@ -81,6 +107,7 @@ public class Course implements Serializable {
     }
 
     public void setSemester(Semester mSemester) {
+
         this.mSemester = mSemester;
     }
 }
